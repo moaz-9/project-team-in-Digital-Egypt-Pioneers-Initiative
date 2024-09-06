@@ -13,13 +13,99 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- ========= cdn Aos link ========= -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
-
-
-    
+     <!-- Header Section -->
+     <header>
+        <div class="header-top">
+            <p>Sign up and get 20% off to your first order. <a href="#">Sign Up Now</a></p>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>SHOP.CO</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="active">Shop</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul class="category-list">
+                        <li><a href="#">T-shirts</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Hoodie</a></li>
+                        <li><a href="#">Jeans</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+            </div>
+        </nav>
+    </header>    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+            <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="statistics">
+            <div class="stat">
+                <div class="contet">
+                    <span>+</span>
+                    <h2 class="number" data-num="200">0</h2>
+                </div>
+                <p>International Brands</p>
+            </div>
+            <div class="stat">
+                <div class="contet">
+                <span>+</span>
+                <h2 class="number" data-num="2000">0</h2>
+            </div>
+                <p>High-Quality Products</p>
+            </div>
+            <div class="stat">
+                <div class="contet">
+                <span>+</span>
+                <h2 class="number" data-num="30000">0</h2>
+            </div>
+                <p>Happy Customers </p>
+            </div>
+        </div>
+        <div class="svg-img">
+            <img class="svg-large" src="assets/images/Vector-large.svg" alt="">
+            <img class="svg-small" src="assets/images/Vector-small.svg" alt="">
+        </div>
+    </section>
+    <section class="container-sliding">
+        <p class="title">VERSACE</p>
+        <p class="title">ZARA</p>
+        <p class="title">GUCCI</p>
+        <p class="title">PRADA</p>
+        <p class="title">Calvin Klein</p>
+    </section>
+     <!-- icon lordicon -->
+     <script src="https://cdn.lordicon.com/lordicon.js"></script>
+     <!-- Aos JS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- Initialize Aos -->
+     <script>
+         AOS.init();
+     </script>
+     <!-- Gsap JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script> 
     <!-- ============ js link ============ -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/gasp.js"></script>
 </body>
 </html>
