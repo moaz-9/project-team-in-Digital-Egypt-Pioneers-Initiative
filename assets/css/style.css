@@ -396,6 +396,17 @@ button {
     .main-board {
         margin-bottom: -120px;
     }
+    .footer-col-all {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+@media (min-width: 993px) {
+    .footer-col-all {
+        display:contents; 
+    }
+
 }
 
 .main-board .container .sub-board {
@@ -466,8 +477,6 @@ footer {
     padding-bottom: 30px;
     background: var(--light-gray);
     position: relative;
-    list-style: none;
-    text-decoration: none;
 }
 
 footer .hr {
@@ -475,7 +484,25 @@ footer .hr {
     padding-bottom: 2rem;
     margin-bottom: 1.56rem;
 }
+@media (max-width: 575px){
+    .social-media {
+        margin-bottom: 30px;
+    }
+    .logo-div {
+        width: 95%;
+    }
+    .payment {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 790px) {
+    .footer-col-all {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+}
 footer .footer-logo {
     color: var(--black);
     font-family: 'Arial Black', 'Impact', sans-serif;
@@ -495,13 +522,13 @@ footer .f-header {
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 1.125rem;
+    line-height: 2.125rem;
     letter-spacing: 0.1875rem;
     text-transform: uppercase;
 }
-
 footer .footer-col li a {
     color: var(--p-color);
+    font-size: 14px;
     transition: var(--main-duration);
     -webkit-transition: var(--main-duration);
     -moz-transition: var(--main-duration);
