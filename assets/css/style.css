@@ -377,6 +377,231 @@ button {
 }
 
 /*-----------------------------------*\
+ * #Browse by Dress Style 
+\*-----------------------------------*/
+
+.frame{
+    border-radius: 40px;
+    background: #F0F0F0;
+    margin:100px auto 121px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:71px 64px 76px;
+    width:fit-content;
+}
+
+.style-item p{
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Satoshi', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.dress-styles h2 {
+    margin-bottom: 65px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Integral CF', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 48px;
+    color:var(--black);
+}
+
+.style-item.formal{
+    border-radius: 20px;
+    background:var(--white);
+    position:relative;
+    padding:28.5px 36px 218.5px;
+    width: 684px;
+}
+
+.style-item.casual{
+    border-radius: 20px;
+    background:var(--white);
+    position:relative;
+    margin-right:20px;
+    padding:28.5px 36px 36px;
+    width:407px;
+    height:289px;
+}
+
+.style-item.party{
+    border-radius: 20px;
+    background: var(--white);
+    position: relative;
+    margin-right: 20px;
+    padding: 28.5px 36px 218.5px;
+    width: 684px;
+
+}
+
+.style-item.gym{
+    border-radius: 20px;
+    background:var(--white);
+    position:relative;
+    margin-right:20px;
+    padding:28.5px 36px 0 36px;
+    width:407px;
+    height:289px;
+}
+
+.style-item.party.img-party{
+    background: url('/assets/images/images2/image_12.png') 50% / cover no-repeat;
+    position: absolute;
+    right: -128px;
+    bottom: -164px;
+    width: 770px;
+    height: 616px;
+}
+
+.style-item.gym.img-gym {
+    background: url('/assets/images/images2/image_12.png') 50% / cover no-repeat;
+    position: absolute;
+    right: -98px;
+    bottom: -240px;
+    width: 452px;
+    height: 677px;
+}
+
+.style-item.casual.img-casual{
+    background-image: url('/assets/images/images2/image_11.png') 50% / cover no-repeat;
+    position: absolute;
+    left: -403px;
+    top: -167px;
+    width: 973px;
+    height: 649px;
+}
+
+.style-item.formal.img-formal{
+    background-image: url("/assets/images/images2/image_13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -146px;
+    right: -622px;
+    width: 1306px;
+    height: 870px;
+}
+
+.container-style-1{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.container-style-2{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+/*-----------------------------------*\
+ * #customers reviews
+\*-----------------------------------*/
+
+.container-title{
+    margin: 0 102.6px 41px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1237.4px;
+}
+
+.our-happy-customers{
+    margin-right: 28px;
+    width: 654px;
+    overflow-wrap: break-word;
+    font-family: 'Integral CF', 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 48px;
+    color:var(--black);
+}
+
+.container-arrows{
+    margin: 37.1px 0 3.1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 58.8px;
+    height: fit-content;
+}
+
+.arrow-lift, .arrow-right{
+    width: 22.6px;
+    height: 22.6px;
+}
+
+.container-reviews{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    width: 2080px;
+}
+
+.frame-card{
+    border-radius: 20px;
+    border: 1px solid var(--black-10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 31px;
+    width: 400px;
+}
+
+.stars{
+    margin-bottom: 17.3px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 6.5px;
+    width: 138.8px;
+    margin-top: 10px;
+}
+
+.star-1{
+    width: 22.6px;height: 22.6px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+}
+
+.frame-name{
+    margin-bottom: 9.5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+}
+
+.text{
+    overflow-wrap: break-word;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.375;
+    padding: 15px;
+    color: var(--black);
+}
+
+.green-icon{
+    margin-bottom: 4.7px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/*-----------------------------------*\
  * #Start Footer
 \*-----------------------------------*/
 /*-----------------------------------*\
